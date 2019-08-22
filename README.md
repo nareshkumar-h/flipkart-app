@@ -11,13 +11,33 @@
 
 
 #### Table 2: books
-| sno | name | price | published_date | category_id | active | rating |
-| --- | ---  | --- | --- | -- | ---| -- |
-| 1 | Java | 300 | 01-01-2011 | 1 | 1 | 4 |
-| 2 | JavaEE | 500 | 01-05-2019 | 1 | 1 | 4| 
-| 3 | C | 100 | 01-06-2013 |1 | 0 | 2 |
-| 4 | MFCS | 100 | 01-06-2013 | 2 | 1 | 5 |
+| sno | name | price | published_date | category_id | active | 
+| --- | ---  | --- | --- | -- | ---| 
+| 1 | Java | 300 | 01-01-2011 | 1 | 1 | 
+| 2 | JavaEE | 500 | 01-05-2019 | 1 | 1 |
+| 3 | C | 100 | 01-06-2013 |1 | 0 | 
+| 4 | MFCS | 100 | 01-06-2013 | 2 | 1 |
 
+
+#### Table 3: users
+| sno | name | 
+| --- | --- |
+| 101 | Naresh |
+| 102 | Prabhu |
+
+#### Table 4: orders
+
+| sno | book_id |  user_id | quantity | 
+| --- | --- | --- | --- | 
+| 1 | 1 | 101 | 2 | 
+| 2 | 2 | 102 | 1 |
+ 
+ #### Table 5: book_ratings
+ 
+| sno | book_id |  user_id | rating | 
+| --- | --- | --- | --- | 
+| 1 | 1 | 101 | 2 |
+| 2 | 2 | 102 | 1 |
 
 #### Feature 1: Display All Books
 `
