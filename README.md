@@ -2,14 +2,22 @@
 
 ## Tables
 
-#### Table 1: books
+#### Table 1: categories
+| sno | name | 
+| --- | --- |
+| 1 | Technical |
+| 2 | Exam |
 
-| sno | name | price | published_date | category | active | rating |
+
+
+#### Table 2: books
+| sno | name | price | published_date | category_id | active | rating |
 | --- | ---  | --- | --- | -- | ---| -- |
-| 1 | Java | 300 | 01-01-2011 | Technical | 1 | 4 |
-| 2 | JavaEE | 500 | 01-05-2019 | Technical | 1 | 4| 
-| 3 | C | 100 | 01-06-2013 |Technical | 0 | 2 |
-| 4 | MFCS | 100 | 01-06-2013 | Exam | 1 | 5 |
+| 1 | Java | 300 | 01-01-2011 | 1 | 1 | 4 |
+| 2 | JavaEE | 500 | 01-05-2019 | 1 | 1 | 4| 
+| 3 | C | 100 | 01-06-2013 |1 | 0 | 2 |
+| 4 | MFCS | 100 | 01-06-2013 | 2 | 1 | 5 |
+
 
 #### Feature 1: Display All Books
 `
