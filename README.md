@@ -5,7 +5,7 @@
 #### Table 1: books
 
 | sno | name | price | published_date | category | active | rating |
-| --- | ---  | --- | --- | -- | ---|
+| --- | ---  | --- | --- | -- | ---| -- |
 | 1 | Java | 300 | 01-01-2011 | Technical | 1 | 4 |
 | 2 | JavaEE | 500 | 01-05-2019 | Technical | 1 | 4| 
 | 3 | C | 100 | 01-06-2013 |Technical | 0 | 2 |
