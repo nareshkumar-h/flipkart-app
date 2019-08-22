@@ -4,7 +4,7 @@
 
 #### Table 1: books
 
-| Sno | Name | Price |
+| sno | name | price |
 | --- | ---  | --- |
 | 1 | Java | 300 |
 | 2 | JavaEE | 500 |
