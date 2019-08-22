@@ -4,11 +4,18 @@
 
 #### Table 1: books
 
-| Sno | Name | 
-| -- | -- |
-| 1 | Java |
+| Sno | Name | Price |
+| --- | ---  | --- |
+| 1 | Java | 300 |
+| 2 | JavaEE | 500 |
+| 3 | C | 100 |
 
-#### List All Books
+#### Feature 1: Display All Books
+`
+select * from books;
+`
+
+#### Feature 2: Display All Books - Sort by Price ASC
 `
 select * from books;
 `
