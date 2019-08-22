@@ -13,22 +13,22 @@
 
 #### Feature 1: Display All Books
 `
-select * from books;
+select * from books where active = 1;
 `
 
 #### Feature 2: Display All Books - Sort by Price ASC
 `
-select * from books order by price asc;
+select * from books where active = 1  order by price asc;
 `
 
 #### Feature 3: Display All Books - Sort by Price DESC
 `
-select * from books order by price desc;
+select * from books where active = 1 order by price desc;
 `
 
 #### Feature 4: Display All Books - Based on Price Range
 `
-select * from books where price >= ? and price <= ? order by price asc;
+select * from books where active = 1 and price >= ? and price <= ? order by price asc;
 `
 
 #### Feature 5: Display All Books - Recently Published Books as First
