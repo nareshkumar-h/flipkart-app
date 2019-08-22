@@ -20,17 +20,18 @@
 
 
 #### Table 3: users
-| sno | name | 
-| --- | --- |
-| 101 | Naresh |
-| 102 | Prabhu |
+| sno | name | email | password |
+| --- | --- | --- | --- |
+| 101 | Naresh | nareshkumarh@live.com | pass123 | 
+| 102 | Prabhu | prabhu.s@gmail.com | pass123 |
 
 #### Table 4: orders
 
-| sno | book_id |  user_id | quantity | 
-| --- | --- | --- | --- | 
-| 1 | 1 | 101 | 2 | 
-| 2 | 2 | 102 | 1 |
+| sno | book_id |  user_id | quantity | order_date | status | 
+| --- | --- | --- | --- | --- | --- |
+| 1 | 1 | 101 | 2 | 19-08-2019 | ORDERED |
+| 2 | 2 | 102 | 1 | 20-08-2019 | DELIVERED |
+| 3 | 1 | 102 | 1 | 20-08-2019 | CANCELLED |
  
  #### Table 5: book_ratings
  
