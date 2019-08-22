@@ -4,7 +4,7 @@
 
 #### Table 1: books
 
-| Sno | Name |
+| Sno | Name | 
 | -- | -- |
 | 1 | Java |
 
