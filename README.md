@@ -39,3 +39,4 @@ select * from books order by published_date asc;
 #### Feature 6: Display All Books - Based on the given category
 `
 select * from books where category = ?;
+`
