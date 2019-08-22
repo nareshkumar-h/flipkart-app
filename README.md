@@ -6,3 +6,8 @@
 | Sno | Name |
 | -- | -- |
 | 1 | Java |
+
+#### List All Books
+`
+select * from books;
+`
