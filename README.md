@@ -22,7 +22,7 @@ select * from books order by price asc;
 
 #### Feature 3: Display All Books - Sort by Price DESC
 `
-select * from books order by price asc;
+select * from books order by price desc;
 `
 
 #### Feature 4: Display All Books - Based on Price Range
