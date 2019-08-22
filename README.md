@@ -4,11 +4,12 @@
 
 #### Table 1: books
 
-| sno | name | price | published_date | 
-| --- | ---  | --- | --- |
-| 1 | Java | 300 | 01-01-2011 |
-| 2 | JavaEE | 500 | 01-05-2019 |
-| 3 | C | 100 | 01-06-2013 |
+| sno | name | price | published_date | category |
+| --- | ---  | --- | --- | -- |
+| 1 | Java | 300 | 01-01-2011 | Technical |
+| 2 | JavaEE | 500 | 01-05-2019 | Technical |
+| 3 | C | 100 | 01-06-2013 |Technical |
+| 4 | MFCS | 100 | 01-06-2013 | Exam |
 
 #### Feature 1: Display All Books
 `
@@ -34,3 +35,7 @@ select * from books where price >= ? and price <= ? order by price asc;
 `
 select * from books order by published_date asc;
 `
+
+#### Feature 6: Display All Books - Based on the given category
+`
+select * from books where category = ?;
