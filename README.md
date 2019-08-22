@@ -4,12 +4,12 @@
 
 #### Table 1: books
 
-| sno | name | price | published_date | category |
-| --- | ---  | --- | --- | -- |
-| 1 | Java | 300 | 01-01-2011 | Technical |
-| 2 | JavaEE | 500 | 01-05-2019 | Technical |
-| 3 | C | 100 | 01-06-2013 |Technical |
-| 4 | MFCS | 100 | 01-06-2013 | Exam |
+| sno | name | price | published_date | category | active |
+| --- | ---  | --- | --- | -- | ---|
+| 1 | Java | 300 | 01-01-2011 | Technical | 1 |
+| 2 | JavaEE | 500 | 01-05-2019 | Technical | 1 |
+| 3 | C | 100 | 01-06-2013 |Technical | 0 |
+| 4 | MFCS | 100 | 01-06-2013 | Exam | 1 |
 
 #### Feature 1: Display All Books
 `
